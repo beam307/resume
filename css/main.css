@@ -1,0 +1,31 @@
+.resume {
+    margin-top: 50px;
+}
+
+.resume .name {
+    text-align: center;
+}
+
+.resume .name h1 {
+    color: #006600;
+    font-weight: bold;
+}
+
+.resume .info i, p {
+    font-size: 20px;
+}
+.resume .info p {
+    line-height : 1.0;
+}
+.resume .info .row {
+    padding: 3px;
+}
+.resume .info p.english {
+    color: #009900;
+}
+
+@media screen and (min-width: 992px) {
+    .resume .name {
+        text-align: left;
+    }
+}
