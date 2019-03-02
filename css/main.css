@@ -1,3 +1,48 @@
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+p, li {
+    font-size: 16px;
+}
+
+ol, ul {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    color: #006600;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    color: #00b300;
+    font-weight: 500;
+}
+
+.badge-first {
+    background-color: #e62e00;
+    color: #fff;
+}
+
+.badge-second {
+    background-color: #0000ff;
+    color: #fff;
+}
+
+.badge-third {
+    background-color: #595959;
+    color: #fff;
+}
+
 .resume {
     margin-top: 50px;
 }
@@ -6,26 +51,63 @@
     text-align: center;
 }
 
-.resume .name h1 {
-    color: #006600;
-    font-weight: bold;
+.resume .info i, .resume .info p, .resume .info a {
+    font-size: 20px;
+    line-height: 1.0;
+    margin: 0;
 }
 
-.resume .info i, p {
-    font-size: 20px;
-}
-.resume .info p {
-    line-height : 1.0;
-}
 .resume .info .row {
     padding: 3px;
 }
-.resume .info p.english {
+
+.resume .info .english {
     color: #009900;
 }
 
+.resume .tooltip-div .title {
+    position: relative;
+}
+
+.resume .tooltip-div .tooltip-hover {
+    position: absolute;
+    right: -30px;
+    top: -4px;
+    color: #000;
+}
+
+.resume .tooltip-div .tooltip-hover i {
+    font-size: 20px;
+}
+
+.tooltip-inner {
+    max-width: 220px;
+    width: 220px;
+}
+
 @media screen and (min-width: 992px) {
-    .resume .name {
+    .resume .info .name {
         text-align: left;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .title {
+        text-align: center;
+    }
+
+    .sub-title {
+        text-align: center;
+    }
+
+    .resume .tooltip-div {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .resume .info i, p, li {
+        font-size: 18px;
     }
 }
