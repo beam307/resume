@@ -57,17 +57,25 @@ ol, ul {
     word-wrap: break-word;
 }
 
-.resume .info i, .resume .info p, .resume .info a {
+.resume .title-name {
+    color: #006600;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.resume .information i, .resume .information p, .resume .information a {
     font-size: 20px;
     line-height: 1.0;
     margin: 0;
 }
 
-.resume .info .row {
+.resume .information .row {
     padding: 3px;
 }
 
-.resume .info .english {
+.resume .information .english {
     color: #009900;
 }
 
@@ -183,9 +191,12 @@ ol, ul {
         margin-top: 0;
     }
 
+    .resume .title-name {
+        margin-top: 10px;
+    }
+
     .title {
         text-align: center;
-        margin-top: 10px;
     }
 
     .sub-title, .tooltip-div, .period, .info, .name {
