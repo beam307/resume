@@ -32,6 +32,9 @@ ol, ul {
 .sub-title {
     color: #00b300;
     font-weight: 500;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 24px;
 }
 
 .badge-first {
@@ -76,7 +79,9 @@ ol, ul {
 .resume .information .english {
     color: #009900;
 }
-
+.resume .skill ul {
+    padding-right: 0;
+}
 .resume .tooltip-div .title {
     position: relative;
 }
@@ -209,7 +214,10 @@ ol, ul {
         margin-left: 10px;
         margin-right: 10px;
     }
-
+    .resume .skill ul {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .experience ul, .project ul {
         margin-left: 20px;
     }
