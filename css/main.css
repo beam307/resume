@@ -22,7 +22,7 @@ ol, ul {
 }
 
 .title {
-    color: #006600;
+    color: #2B5686;
     font-weight: bold;
     font-size: 36px;
     margin-top: 0;
@@ -30,7 +30,7 @@ ol, ul {
 }
 
 .sub-title {
-    color: #00b300;
+    color: #2D629C;
     font-weight: 500;
     margin-top: 10px;
     line-height: 1.5;
@@ -59,7 +59,7 @@ ol, ul {
 }
 
 .resume .title-name {
-    color: #006600;
+    color: #000;
     font-weight: bold;
     font-size: 36px;
     margin-top: 0;
@@ -77,11 +77,21 @@ ol, ul {
 }
 
 .resume .information .english {
-    color: #009900;
+    color: #000;
 }
+
+.resume .motto {
+    font-weight: bold;
+}
+
 .resume .skill ul {
     padding-right: 0;
 }
+
+.resume .skill .row {
+    margin-bottom: 10px;
+}
+
 .resume .tooltip-div .title {
     position: relative;
 }
@@ -114,7 +124,6 @@ ol, ul {
 }
 
 .resume .info {
-    font-style: italic;
     color: #8c8c8c;
     font-size: 14px;
 }
@@ -138,14 +147,18 @@ ol, ul {
 
 .btn-first {
     color: #fff;
-    background-color: #006600;
-    border-color: #006600;
+    background-color: #2B5686;
+    border-color: #2B5686;
 }
 
 .btn-second {
     color: #fff;
-    background-color: #00b300;
-    border-color: #00b300;
+    background-color: #4B87CB;
+    border-color: #4B87CB;
+}
+.btn:hover {
+    color: #fff;
+    opacity: 0.9;
 }
 
 .footer {
@@ -214,10 +227,12 @@ ol, ul {
         margin-left: 10px;
         margin-right: 10px;
     }
+
     .resume .skill ul {
         margin-top: 0;
         margin-bottom: 0;
     }
+
     .experience ul, .project ul {
         margin-left: 20px;
     }
