@@ -16,6 +16,11 @@ ol, ul {
     padding-right: 20px;
 }
 
+li p {
+    display: flex;
+    align-items: flex-end;
+}
+
 .profile-img {
     max-height: 320px;
     transition: none;
@@ -37,19 +42,27 @@ ol, ul {
     font-size: 24px;
 }
 
+.badge {
+    font-weight: 500;
+    padding: 4px 8px;
+}
+
 .badge-first {
     background-color: #e62e00;
     color: #fff;
+    margin-left: 5px;
 }
 
 .badge-second {
     background-color: #0000ff;
     color: #fff;
+    margin-left: 5px;
 }
 
 .badge-third {
     background-color: #595959;
     color: #fff;
+    margin-left: 5px;
 }
 
 .resume {
@@ -139,10 +152,8 @@ ol, ul {
 
 .buttons {
     padding: 50px;
-}
-
-.buttons > div {
-    padding-top: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-first {
