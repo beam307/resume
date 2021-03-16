@@ -27,7 +27,7 @@ li p {
 }
 
 .title {
-    color: #2B5686;
+    color: #1c3148;
     font-weight: bold;
     font-size: 36px;
     margin-top: 0;
@@ -44,25 +44,31 @@ li p {
 
 .badge {
     font-weight: 500;
-    padding: 4px 8px;
+    padding: 5px 8px;
 }
 
 .badge-first {
     background-color: #e62e00;
     color: #fff;
     margin-left: 5px;
+    padding: 3px 6px;
+    border-radius: 50%;
 }
 
 .badge-second {
     background-color: #0000ff;
     color: #fff;
     margin-left: 5px;
+    padding: 3px 6px;
+    border-radius: 50%;
 }
 
 .badge-third {
     background-color: #595959;
     color: #fff;
     margin-left: 5px;
+    padding: 3px 6px;
+    border-radius: 50%;
 }
 
 .resume {
