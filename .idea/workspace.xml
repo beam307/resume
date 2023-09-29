@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc865474-dbf0-4501-b2fd-9e8b10625129" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1628675368983" duration="11000" />
       <workItem from="1695974704728" duration="96000" />
       <workItem from="1695974911252" duration="145000" />
-      <workItem from="1695975187339" duration="6582000" />
+      <workItem from="1695975187339" duration="7467000" />
     </task>
     <task id="LOCAL-00001" summary="이력서 최신화 및 오탈자 수정 및 디자인 수정">
       <created>1621345857586</created>
@@ -105,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1628419991226</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="이력서 최신화 및 오탈자 수정">
+      <option name="closed" value="true" />
+      <created>1695981792210</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695981792210</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
