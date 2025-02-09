@@ -29,7 +29,7 @@ li p {
 .title {
     color: #1c3148;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 32px;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -37,7 +37,7 @@ li p {
 .sub-title {
     color: #2D629C;
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 0;
     line-height: 1.5;
     font-size: 24px;
 }
@@ -108,9 +108,9 @@ li p {
 }
 
 .resume .skill .row {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
-
 .tooltip-inner {
     max-width: 220px;
     width: 220px;
