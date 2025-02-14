@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc865474-dbf0-4501-b2fd-9e8b10625129" name="Default Changelist" comment="이력서 업데이트">
+    <list default="true" id="cc865474-dbf0-4501-b2fd-9e8b10625129" name="Default Changelist" comment="2025: 이력서 업데이트">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -103,7 +103,9 @@
       <workItem from="1707041609309" duration="13000" />
       <workItem from="1710427064248" duration="328000" />
       <workItem from="1710427417352" duration="128000" />
-      <workItem from="1739058995484" duration="3692000" />
+      <workItem from="1739058995484" duration="3751000" />
+      <workItem from="1739192492913" duration="7000" />
+      <workItem from="1739537193433" duration="4597000" />
     </task>
     <task id="LOCAL-00001" summary="이력서 최신화 및 오탈자 수정 및 디자인 수정">
       <created>1621345857586</created>
@@ -150,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710427539600</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2025: 이력서 업데이트">
+      <option name="closed" value="true" />
+      <created>1739062735987</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739062735987</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +193,7 @@
     <MESSAGE value="이력서 최신화 및 오탈자 수정" />
     <MESSAGE value="." />
     <MESSAGE value="이력서 업데이트" />
-    <option name="LAST_COMMIT_MESSAGE" value="이력서 업데이트" />
+    <MESSAGE value="2025: 이력서 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025: 이력서 업데이트" />
   </component>
 </project>

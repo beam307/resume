@@ -29,7 +29,7 @@ li p {
 .title {
     color: #1c3148;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 24px;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -39,7 +39,7 @@ li p {
     font-weight: 500;
     margin-top: 0;
     line-height: 1.5;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .badge {
@@ -80,13 +80,13 @@ li p {
 .resume .title-name {
     color: #000;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 26px;
     margin-top: 0;
     margin-bottom: 10px;
 }
 
 .resume .information i, .resume .information p, .resume .information a {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.0;
     margin: 0;
 }
@@ -126,7 +126,7 @@ li p {
 }
 
 .resume .period {
-    font-size: 24px;
+    font-size: 20px;
     color: #808080;
 }
 
@@ -137,6 +137,7 @@ li p {
 }
 
 .resume .name {
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -200,7 +201,7 @@ li p {
 
 @media screen and (max-width: 992px) {
     .title, .sub-title {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .resume .tooltip-div .tooltip-hover i {
@@ -230,7 +231,7 @@ li p {
     }
 
     .resume .info i, p, li {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .name, .period {
