@@ -22,7 +22,7 @@ li p {
 }
 
 .profile-img {
-    max-height: 320px;
+    max-height: 200px;
     transition: none;
 }
 
@@ -40,6 +40,10 @@ li p {
     margin-top: 0;
     line-height: 1.5;
     font-size: 18px;
+}
+
+.alert {
+    margin-bottom: 0 !important;
 }
 
 .badge {
@@ -111,6 +115,11 @@ li p {
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+hr.skill {
+    border-top: 1px solid transparent;
+}
+
 .tooltip-inner {
     max-width: 220px;
     width: 220px;
@@ -127,6 +136,7 @@ li p {
 
 .resume .period {
     font-size: 20px;
+    line-height: 1.5;
     color: #808080;
 }
 
@@ -254,5 +264,60 @@ li p {
 
     .experience .badges {
         margin: 0 10px;
+    }
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .resume {
+        margin-top: 10px;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    hr.skill {
+        display: none;
+    }
+
+    .title {
+        margin-bottom: 0 !important;
+    }
+
+    .col-sm-3 {
+        width: 25% !important;
+    }
+
+    .col-sm-4 {
+        width: 33.33333333% !important;
+    }
+
+    .col-sm-9 {
+        width: 75% !important;
+    }
+
+    .next {
+        break-after: page;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .link::after {
+        content: none !important;
+    }
+
+    .footer, .buttons {
+        display: none;
     }
 }
